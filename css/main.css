@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* Header CSS */
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: .3s;
+}
+
+  /* Nav CSS */
+
+nav {
+    padding-right: 30px;
+    margin-right: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    position: relative;
+}
+
+li a:hover {
+    color: red;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    padding: 10px;
+    transition: .2s;
+}
+  /* End of Nav CSS */
+
+/* Endof Header CSS */
