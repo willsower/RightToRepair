@@ -286,6 +286,7 @@ button:hover {
     height: 300px;
     box-shadow: 0 0 0 100px inset,
     0 0 5px rgb(255, 255, 255);
+    position: relative;
 }
 
 .howTo_grid_box figure {
@@ -297,6 +298,10 @@ button:hover {
     width: 100%;
     height: 100%;
     padding: 40px;
+}
+
+.howTo_grid_box h5 {
+    position: absolute;
 }
 
 .howTo_grid_box figure img {
