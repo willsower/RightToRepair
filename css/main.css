@@ -11,8 +11,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body, html, main {
+body, html {
     height: 100%;
+    width: 100%;
+    background-color: var(--background);
+}
+
+main {
     background-color: var(--background);
 }
 
@@ -273,10 +278,9 @@ button:hover {
 /* Footer CSS */
 footer {
     background-color: #000;
-    height: 30px;
     width: 100%;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 footer p {
