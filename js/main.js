@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// event presenter that activates hidden text for button presses
 function openSection(evt, sectName) 
 {
     var i, tabcontent, tablinks;
@@ -14,7 +14,7 @@ function openSection(evt, sectName)
     document.getElementById(sectName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-=======
+
 // Smooth Scroll Reveal Below
 overalDelay = 250;
 
@@ -32,4 +32,3 @@ ScrollReveal().reveal('.communityImg', {delay: overalDelay});
 ScrollReveal().reveal('.communityChunk', {delay: overalDelay});
 ScrollReveal().reveal('.moreInfo', {delay: overalDelay});
 ScrollReveal().reveal('.finalize', {delay: overalDelay});
->>>>>>> dc294ce6311615760f1adb36de81fdf87bfd7401
