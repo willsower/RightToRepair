@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+:root {
+    --secondary: #ad9d7d;
+    --background: #ffffff8a;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body, html {
+body, html, main {
     height: 100%;
+    background-color: var(--background);
+}
+
+.clearFix {
+    clear: both;
 }
 
 /* Nav CSS */
@@ -16,4 +29,211 @@ body, html {
 nav {
     padding: 10px !important;
 }
+
+nav a {
+    color: #FFF !important;
+}
 /* End of Nav CSS */
+
+/* Home Page CSS */
+
+.home_background {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/rtr_home_background.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 465px;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered h1 {
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.background p {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+}
+
+.homeInfo {
+    margin: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.homeInfo .homeInfoName { 
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.theThree {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.theThree .repairCafe {
+    width: 33%;
+    float: left;
+}
+
+.theThree .members {
+    width: 33%;
+    float: left;
+}
+
+.theThree .guides {
+    width: 33%;
+    float: right;
+}
+
+.theThree .value {
+    font-size: 30px;
+    color: var(--secondary);
+}
+
+/* Chunk Section */
+#presentGuides {
+    overflow: auto;
+    margin: 5%;
+}
+
+#presentRepairCafe {
+    overflow: auto;
+    margin: 5%;
+}
+
+#presentCommunity {
+    overflow: auto;
+    margin: 5%;
+}
+
+.chunkR {
+    width: 50%;
+    float: right;
+    padding: 2.5%;
+}
+
+.chunkL {
+    width: 50%;
+    background-color: var(--secondary);
+    float: left;
+    padding: 2.5%
+}
+
+.chunkR button {
+    background-color: var(--secondary);
+    border: none;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+.chunkL button {
+    background-color: #FFF ;
+    border: none;
+    color: var(--secondary);
+    padding: 5px 10px;
+}
+
+.chunkR h2 {
+    color: var(--secondary);
+}
+
+.chunkL h2 {
+    color: #FFF;
+}
+
+.guideImg img {
+    width: 100%;
+    height: auto;
+}
+
+.repairCafeImg img {
+    width: 100%;
+    height: auto;
+}
+
+.communityImg img {
+    width: 100%;
+    height: auto;
+}
+
+.guideImg {
+    float: left;
+    width: 50%;
+    padding: 2.5%;
+}
+
+.repairCafeImg {
+    float: right;
+    width: 50%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.communityImg {
+    float: left;
+    width: 50%;
+    padding: 2.5%;
+}
+
+.moreInfo {
+    text-align: center;
+}
+
+.moreInfo h3 {
+    margin-bottom: 15px;
+}
+
+.moreInfo p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.moreInfoBlock {
+    width: 33%;
+    float: right;
+    padding: 2.5%;
+}
+
+.moreInfoBlock p {
+    font-size: 15px;
+}
+
+.moreInfoBlock h5 {
+    display: inline-block;
+    border-bottom:1px solid var(--secondary);
+    padding-bottom: 10px;
+}
+
+.moreInfoBlock .infoBlockHolder {
+    margin: 10px auto;
+    /* width: 50%; */
+    width: 100px;
+    height: 100px;
+}
+
+.moreInfoBlock img {
+    width: 100%;
+}
+
+.finalize {
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+/* End of Home Page CSS */
