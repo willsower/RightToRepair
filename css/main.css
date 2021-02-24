@@ -42,6 +42,10 @@ nav {
 nav a {
     color: #FFF !important;
 }
+
+.guideChunk a, .repairCafeChunk a, .communityChunk a {
+    text-decoration: none;
+}
 /* End of Nav CSS */
 
 /* Home Page CSS */
@@ -147,17 +151,17 @@ nav a {
 .chunkR button {
     background-color: var(--secondary);
     border: none;
-    color: #FFF;
     padding: 5px 10px;
     transition-duration: 0.4s;
+    color: #FFF;
 }
 
 .chunkL button {
     background-color: #FFF ;
     border: none;
-    color: var(--secondary);
     padding: 5px 10px;
     transition-duration: 0.4s;
+    color: var(--secondary);
 }
 
 .chunkR h2 {
@@ -281,6 +285,9 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 50px;
+    bottom: 0;
+    position: relative;
+    clear: both;
 }
 
 footer p {
