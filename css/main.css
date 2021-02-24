@@ -20,6 +20,10 @@ body, html, main {
     clear: both;
 }
 
+.fade {
+    opacity: 1;
+}
+
 /* Nav CSS */
 
 .ml-auto {
