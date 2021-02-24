@@ -140,6 +140,7 @@ nav a {
     border: none;
     color: #FFF;
     padding: 5px 10px;
+    transition-duration: 0.4s;
 }
 
 .chunkL button {
@@ -147,6 +148,7 @@ nav a {
     border: none;
     color: var(--secondary);
     padding: 5px 10px;
+    transition-duration: 0.4s;
 }
 
 .chunkR h2 {
@@ -155,6 +157,10 @@ nav a {
 
 .chunkL h2 {
     color: #FFF;
+}
+
+.chunkL p {
+    color: rgba(219, 217, 217, 0.819);
 }
 
 .guideImg img {
@@ -236,4 +242,41 @@ nav a {
     margin-top: 2.5%;
 }
 
+.finalize p {
+    font-size: 30px;
+    color: rgb(136, 133, 133);
+}
+
+.finalize button {
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--secondary);
+    color: #FFF;
+    transition-duration: 0.4s;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button:hover {
+    background-color: #786d57;
+}
+
 /* End of Home Page CSS */
+
+/* Footer CSS */
+footer {
+    background-color: #000;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer p {
+    padding: 10px;
+    color: #FFF;
+}
+/* End of Footer CSS */
