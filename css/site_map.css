@@ -10,11 +10,6 @@
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 /* Main CSS */
 main {
     font-size: medium;
@@ -27,16 +22,6 @@ main {
     line-height: 1.6;
     overflow: hidden;
 }
-
-/* Nav CSS */
-.ml-auto {
-    margin-left: auto !important;
-}
-
-nav {
-    padding: 5px !important;
-}
-/* End of Nav CSS */
 
 #textSect {
     height: 33vh;
