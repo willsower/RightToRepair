@@ -419,8 +419,6 @@ button:hover {
 }
 
 .phone {
-    grid-area: phone;
-
     width: 300px;
     height: 300px;
     background-image: 
@@ -435,8 +433,6 @@ button:hover {
 }
 
 .pc {
-    grid-area: pc;
-
     width: 300px;
     height: 300px;
     background-image: 
@@ -451,8 +447,6 @@ button:hover {
 }
 
 .laptop {
-    grid-area: laptop;
-
     width: 300px;
     height: 300px;
     background-image: 
@@ -466,8 +460,6 @@ button:hover {
 }
 
 .gameConsole {
-    grid-area: game;
-
     width: 300px;
     height: 300px;
     background-image: 
@@ -481,8 +473,6 @@ button:hover {
 }
 
 .tablet {
-    grid-area: tablet;
-
     width: 300px;
     height: 300px;
     background-image: 
