@@ -284,9 +284,8 @@ button:hover {
 .howTo_grid_box {
     width: 300px;
     height: 300px;
-    box-shadow: 0 0 0 100px inset,
-    0 0 5px rgb(255, 255, 255);
     position: relative;
+    /* border: 1px solid black; */
 }
 
 .howTo_grid_box figure {
@@ -298,13 +297,46 @@ button:hover {
     width: 100%;
     height: 100%;
     padding: 40px;
+
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .howTo_grid_box h5 {
     position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.howTo_grid_box figure img {
+.howTo_grid_box:hover img {
+    opacity: 0.3;
+    background-color: var(--secondary);
+}
+
+.howTo_grid_box h5 a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.howTo_grid_box h5 {
+    background-color: var(--secondary);
+}
+
+.howTo_grid_box {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -313,20 +345,7 @@ button:hover {
 .howTo_grid_box figure:hover img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
-}
-
-.howTo_grid_box figure:hover {
-	background: var(--secondary);
-    -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.howTo_grid_box figure img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.howTo_grid_box figure:hover img {
-	/* opacity: .5; */
+    cursor: pointer;
 }
 
 /* End of How To Guide CSS */
