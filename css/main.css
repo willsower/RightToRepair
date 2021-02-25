@@ -365,14 +365,15 @@ button:hover {
 }
 
 .howTo_grid_box h5 a {
-    color: #FFF;
+    color: #FFF !important;
     text-decoration: none;
     font-size: 30px;
     padding: 10px;
 }
 
 .howTo_grid_box h5 {
-    background-color: var(--secondary);
+    color: #FFF !important;
+    padding: 5px;
 }
 
 .howTo_grid_box {
@@ -388,7 +389,136 @@ button:hover {
 }
 
 .overArchingGrid {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    text-align: center;
+}
+
+.first {
+    display: inline-block;
+    margin: 1%;
+}
+
+.second {
+    display: inline-block;
+    margin: 1%;
+}
+
+.android {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_android.png);
     
+    background-size: cover;
+}
+
+.phone {
+    grid-area: phone;
+
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_phone.png);
+    
+    background-size: cover;
+
+}
+
+.pc {
+    grid-area: pc;
+
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_pc.png);
+    
+    background-size: cover;
+
+}
+
+.laptop {
+    grid-area: laptop;
+
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_laptop.png);
+    
+    background-size: cover;
+}
+
+.gameConsole {
+    grid-area: game;
+
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_game.png);
+    
+    background-size: cover;
+}
+
+.tablet {
+    grid-area: tablet;
+
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_tablet.png);
+    
+    background-size: cover;
+}
+
+.printer {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_printer.png);
+    
+    background-size: cover;
+}
+
+.camera {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/howto_camera.png);
+    
+    background-size: cover;
 }
 
 /* End of How To Guide CSS */
