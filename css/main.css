@@ -281,6 +281,45 @@ button:hover {
 
 /* How To Guide CSS */
 
+.howTo_Title {
+    margin-top: 30px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.howto_same {
+    display: inline-block;
+    text-align: center;
+}
+
+.howTo_TitleButton {
+    float: right;
+    margin-bottom: 25px;
+}
+
+.howTo_Title h5 {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--secondary);
+}
+
+.howTo_TitleButton button {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.howTo_learn {
+    background-color: #FFF;
+    color: var(--secondary);
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.howTo_create {
+    background-color: #d7c9ac;
+    color: #FFF;
+    border: 1px solid var(--secondary);
+}
+
 .howTo_grid_box {
     width: 300px;
     height: 300px;
@@ -346,6 +385,10 @@ button:hover {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
     cursor: pointer;
+}
+
+.overArchingGrid {
+    
 }
 
 /* End of How To Guide CSS */
