@@ -51,11 +51,24 @@
     </header>
 
     <main>
+        <div class="search">
+            <input style="height: 100%; width: 100%;" type="text" value="" placeholder="Search your location">
+        </div>
+        <div class="areaPanels">
+            <div id="panelBox" style="justify-content: center;">
+                <p  style="margin-left: 5px; margin-right: 5px; margin-top: 5px;">
+                    This Panel is to display repair cafe in the area. 
+                    It will also display common places you go to repair technology.
+                    Examples include common phone stores with repair capabilities, places like best buy,
+                    and mechanics in the area.
+                </p>
+            </div>
+        </div>
         <div id="mapsection">
             <!--This section was provided to us free to use via www.embedgooglemap.net-->
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            <div class="mapouter" style="height: 93vh; width: 100%;">
+                <div class="gmap_canvas" style="height: 100%; width: 100%;">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" 
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                 </iframe>
                 <a href="https://123movies-to.org"></a>
