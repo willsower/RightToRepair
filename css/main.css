@@ -18,7 +18,6 @@ body, html {
 }
 
 main {
-    height: 100%;
     background-color: var(--background);
 }
 
@@ -522,9 +521,6 @@ button:hover {
     color: #444;
     cursor: pointer;
     padding: 18px;
-    /* margin: 10px; */
-    /* margin-left: 10px;
-    margin-top: 10px; */
     width: 100%;
     text-align: left;
     border: none;
@@ -539,10 +535,67 @@ button:hover {
   
   /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
     background-color: white;
     display: none;
     overflow: hidden;
+}
+
+#discussion {
+    margin: 10px;
+}
+
+#question {
+    margin: 10px;
+}
+
+#question button, #discussion button {
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+#question button:hover, #discussion button:hover {
+    background-color: #e3cfb4;
+}
+
+#question .questionItemButton, #discussion .discussionItemButton {
+    height: 90px;
+}
+
+.questionItem .questionTop, .discussionItem .discussionTop {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.questionItem .questionTop .resolved {
+    color: #FFF;
+    background-color: var(--secondary);
+    padding: 2.5px;
+}
+
+.questionItem img, .discussionItem img {
+    width: 30px;
+    margin-top: 5px;
+    float: left;
+}
+
+.questionItem .questionName, .discussionItem .discussionName {
+    margin-left: 50px;
+}
+
+.questionItem .questionData, .discussionItem .discussionData {
+    font-size: 10px;
+    color: rgb(145, 143, 143);
+    margin-top: 8px;
+}
+
+.communityH1 {
+    margin-top: 1%;
+    margin-left: 10px;
+    margin-bottom: 1%;
 }
 
 /* End of Community CSS */
