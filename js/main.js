@@ -55,7 +55,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
 // Inner Community CSS
-var acc = document.getElementsByClassName("discussionItemButton");
+var acc = document.getElementsByClassName("exampleDiscussion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
