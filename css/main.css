@@ -638,6 +638,97 @@ button:hover {
     color: rgb(150, 150, 150);
 }
 
+.appleiPhone {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/applePhone.png);
+    
+    background-size: cover;
+}
+
+.androidPhone {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/androidPhone.jpg);
+    
+    background-size: cover;
+}
+
+.windowsPhone {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/windowsPhone.png);
+    
+    background-size: cover;
+}
+
+.blackBerryPhone {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/blackBerry.png);
+    
+    background-size: cover;
+}
+
+.landLinePhone {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/landline.png);
+    
+    background-size: cover;
+}
+
+.phoneAccessory {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/phoneAccessories.png);
+    
+    background-size: cover;
+}
+
+.otherPhone {
+    width: 300px;
+    height: 300px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/otherPhone.png);
+    
+    background-size: cover;
+}
+
 /* End of Community CSS */
 
 /* Footer CSS */
