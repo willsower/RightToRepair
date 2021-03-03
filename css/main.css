@@ -43,6 +43,14 @@ nav a {
     color: #FFF !important;
 }
 
+nav ul li {
+    display: inline-block;
+}
+
+nav ul {
+    margin-top: 10px;
+}
+
 .guideChunk a, .repairCafeChunk a, .communityChunk a {
     text-decoration: none;
 }
